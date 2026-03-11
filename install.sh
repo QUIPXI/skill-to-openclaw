@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Install skill-to-openclaw
-# Usage: curl -sL https://raw.githubusercontent.com/LoberQuip/skill-to-openclaw/main/install.sh | bash
+# Usage: curl -sL https://raw.githubusercontent.com/QUIPXI/skill-to-openclaw/main/install.sh | bash
 
 set -euo pipefail
 
