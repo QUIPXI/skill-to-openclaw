@@ -4,7 +4,7 @@
 
 set -euo pipefail
 
-REPO_URL="${REPO_URL:-https://github.com/LoberQuip/skill-to-openclaw.git}"
+REPO_URL="${REPO_URL:-https://github.com/QUIPXI/skill-to-openclaw.git}"
 INSTALL_DIR="${HOME}/.skill-to-openclaw"
 BIN_DIR="${HOME}/.local/bin"
 SCRIPT_NAME="skill-to-openclaw"
