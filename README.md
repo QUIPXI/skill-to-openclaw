@@ -34,11 +34,23 @@ $ skill-to-openclaw ParthJadhav/app-store-screenshots
 Restart OpenClaw or run: openclaw skills sync
 ```
 
+## What It Does
+
+1. Accepts GitHub repo, URL, or local path
+2. Finds SKILL.md in the skill folder
+3. Parses frontmatter (name, description, triggers)
+4. Copies supporting files
+5. Saves to `~/.openclaw/skills/[name]/`
+
 ## Options
 
 - `--name` — Custom skill name
 - `--force` — Overwrite existing
-- `--dry-run` — Preview only
+- `--dry-run` — Preview without writing
+
+## Related
+
+- [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) — 170+ skills that already work on both Claude Code and OpenClaw
 
 ## License
 
